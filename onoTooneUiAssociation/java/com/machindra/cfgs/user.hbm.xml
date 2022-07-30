@@ -1,0 +1,18 @@
+
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="com.machindra.domain.User" table="user_table">
+		<id name="userid" column="uid" />
+		<property name="fname" />
+		<property name="lname" />
+		<property name="address" />
+		<set name="phoneNo" cascade="all">
+		<key column="uesr_id"/><!--  FK column -->
+		<one-to-many class="com.machindra.domain.PhoneNumber"/>
+		</set>
+		
+	</class>
+</hibernate-mapping>

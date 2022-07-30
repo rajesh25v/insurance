@@ -1,0 +1,11 @@
+2022-07-30 11:12:24 INFO  TestClass:30 - session is created: SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=[] updates=[] deletions=[] collectionCreations=[] collectionRemovals=[] collectionUpdates=[]])
+2022-07-30 11:12:24 INFO  TestClass:32 - session is created: org.hibernate.transaction.JDBCTransaction@553f3b6e
+2022-07-30 11:12:24 INFO  TestClass:42 - session is clsoed: false
+2022-07-30 11:12:24 INFO  TestClass:14 - hibernate connection started
+2022-07-30 11:12:26 INFO  TestClass:14 - hibernate connection started
+2022-07-30 11:12:27 INFO  TestClass:30 - session is created: SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=[] updates=[] deletions=[] collectionCreations=[] collectionRemovals=[] collectionUpdates=[]])
+2022-07-30 11:12:27 INFO  TestClass:32 - session is created: org.hibernate.transaction.JDBCTransaction@7f34a967
+2022-07-30 11:12:27 INFO  TestClass:42 - session is clsoed: false
+2022-07-30 11:12:29 INFO  TestClass:30 - session is created: SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=[] updates=[] deletions=[] collectionCreations=[] collectionRemovals=[] collectionUpdates=[]])
+2022-07-30 11:12:29 INFO  TestClass:32 - session is created: org.hibernate.transaction.JDBCTransaction@49298ce7
+2022-07-30 11:12:29 INFO  TestClass:42 - session is clsoed: false
